@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  background-color: #CEE6F3;
+}
+.block {
+  padding: 20px;
+  background-color: #F3E9DD;
+}
+img {
+  width: 500px;
+}
+.cartIcon {
+  width: 70px;
+}
+ .categoryButtonSelected {
+  background-color:white ;
+}
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.categoryButton:hover {
+  background-color: #C1CFC0;
+} 
+.deleteIcon{
+  width: 30px;
+}
+button {
+  background-color: #c1bfbb;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 5%;
+}
