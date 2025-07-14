@@ -7,7 +7,7 @@ const Cart = () => {
     const totalPrice = useSelector(getTotalPrice);
 
     return(<div>
-        <img className="cartIcon" src="https://img.icons8.com/?size=100&id=bec1FJECyy5N&format=png&color=000000" />
+        <img className="cartIcon" src="https://img.icons8.com/?size=100&id=bec1FJECyy5N&format=png&color=000000" alt="cartIcon" />
         <h3>TOTAL: $ { totalPrice }</h3>
        {cartItems.map (cartItem => <CartItem cartItem = {cartItem} /> )}
         

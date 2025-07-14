@@ -10,7 +10,7 @@ const CartItem = ({cartItem}) => {
         <p>{cartItem.quantity} class(es) </p>
         <p>Price: $ {workouts.price * cartItem.quantity}</p>
         <span onClick ={() => dispatch(removeItemFromCart({cartItemId:cartItem.id}))}>
-        <img className="deleteIcon" src="https://img.icons8.com/?size=100&id=QFAMAEC2jXs6&format=png&color=000000" />
+        <img className="deleteIcon" src="https://img.icons8.com/?size=100&id=QFAMAEC2jXs6&format=png&color=000000" alt="deleteIcon" />
         </span>
     </div>)
 }

@@ -7,7 +7,7 @@ const Workout =({workout}) => {
     const [quantity, setQuantity] = useState(1);
     const dispatch = useDispatch();
     return(<div>
-        <img src={`./${workout.img}.jpg`}/>
+        <img src={`./${workout.img}.jpg`} alt="workout"/>
        <h2> {workout.name} </h2>
        <p>$ {workout.price}</p>
        <ChangeQuantity quantity={quantity} setQuantity = {setQuantity} />
